@@ -1,4 +1,15 @@
-const range = (stop, start = 0, step = 2) => {
+/**
+Returns an array of numbers from start to stop-1
+
+start defaults to 0
+
+step defaults to 1
+
+ * @param {number} stop - range goes from start to stop-1
+ * @param {number} start - Default: 0 - starting number of range
+ * @param {number} step - Default: 1 - interval between range numbers
+ */
+const range = (stop, start = 0, step = 1) => {
   // switch start and stop values if start is provided
   if (start) {
       let tmp = start;
