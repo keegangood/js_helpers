@@ -32,12 +32,12 @@ const range = (stop, start = 0, step = 1) => {
   let i = start;
   
   if(start > stop) {
-      while(i>stop){
+      while(i > stop){
           nums.push(i);
           i += step;
       }  
   } else {
-      while(i<stop){
+      while(i < stop){
           nums.push(i);
           i += step;
       }
